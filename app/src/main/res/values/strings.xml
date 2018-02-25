@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ControlWiFi</string>
+    <string name="btGetRouter">Get Router</string>
+    <string name="txLocation">Location</string>
 </resources>
