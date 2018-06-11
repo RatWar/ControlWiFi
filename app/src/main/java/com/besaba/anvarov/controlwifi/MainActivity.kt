@@ -32,8 +32,7 @@ class MainActivity : AppCompatActivity() {
             client.lastLocation.addOnSuccessListener(this@MainActivity) { location ->
                 if (location != null) {
                     router = location
-                    txLocation.text = "широта  ${location.latitude.toString()}\u00B0 \n" +
-                            "долгота ${location.longitude.toString()}\u00B0"
+                    txLocation.text = String.format(getString(R.string.txtLatitude), location.latitude, location.longitude)
                 }
             }
         }

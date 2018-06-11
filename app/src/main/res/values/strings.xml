@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">ControlWiFi</string>
-    <string name="btGetRouter">Get Router</string>
+    <string name="btGetRouter" translatable="false">Get Router</string>
     <string name="txLocation">Location</string>
+    <string name="txtSaveRouter" translatable="false">Save Router</string>
+    <string name="txtLatitude">Latitude %1$f \n Longitude %2$f</string>
+    <string name="txtLongitude">Longitude</string>
 </resources>

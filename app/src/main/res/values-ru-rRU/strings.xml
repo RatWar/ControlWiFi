@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ControlWiFi</string>
+    <string name="txtLatitude">Широта</string>
+    <string name="txtLongitude">Долгота</string>
+    <string name="txLocation">Местоположение</string>
+</resources>
